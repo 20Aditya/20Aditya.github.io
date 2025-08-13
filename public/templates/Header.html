@@ -1,0 +1,30 @@
+<header class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <a href="/" class="text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors" id="logo">
+        Aditya Chandel
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex space-x-8" id="desktop-nav">
+        <a href="/" class="nav-item text-sm font-medium transition-colors" data-path="/">Home</a>
+        <a href="/contact" class="nav-item text-sm font-medium transition-colors" data-path="/contact">Contact</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100" id="mobile-menu-btn">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="md:hidden py-4 border-t hidden" id="mobile-nav">
+      <nav class="flex flex-col space-y-2">
+        <a href="/" class="mobile-nav-item px-2 py-2 text-sm font-medium rounded-md transition-colors" data-path="/">Home</a>
+        <a href="/contact" class="mobile-nav-item px-2 py-2 text-sm font-medium rounded-md transition-colors" data-path="/contact">Contact</a>
+      </nav>
+    </div>
+  </div>
+</header> 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="test-container">
+        <h1>Template Loading Test</h1>
+        <div id="template-output"></div>
+    </div>
+
+    <script>
+        // Test template loading
+        async function testTemplateLoading() {
+            try {
+                console.log('Testing template loading...');
+                const response = await fetch('/templates/Header.html');
+                if (response.ok) {
+                    const html = await response.text();
+                    console.log('Template HTML:', html);
+                    document.getElementById('template-output').innerHTML = html;
+                } else {
+                    console.error('Failed to load template');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        testTemplateLoading();
+    </script>
+</body>
+</html> 
