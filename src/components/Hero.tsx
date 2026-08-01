@@ -112,11 +112,11 @@ const Hero: React.FC = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-cyan-400 font-bold">•</span>
-                    <span><strong>DICOMDIR Standards:</strong> High-performance STOW, QIDO & WADO microservices for medical data sharing.</span>
+                    <span><strong>Active-Active Architecture:</strong> Led multi-datacenter deployment with real-time data replication and zero-downtime failover — a resilient DR pattern that transfers to any distributed system.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-cyan-400 font-bold">•</span>
-                    <span><strong>GenAI Incident Triage:</strong> Agentic workflows reducing enterprise production incident MTTR.</span>
+                    <span><strong>Autonomous Incident Triage:</strong> Agentic workflows at Visa, grounded with RAG over runbooks and function-calling tools, cutting enterprise incident MTTR.</span>
                   </li>
                 </ul>
               </div>
